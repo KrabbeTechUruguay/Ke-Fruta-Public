@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{48C37A64-2715-4D97-8932-B9BCB28C300E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>KeFruta</RootNamespace>
+    <AssemblyName>KeFrutaAPP</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\matia\OneDrive\Escritorio\APP\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>KeFruta_Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>C535292301EB5763C7E2F041F7F8D8565F5CD92F</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Presentacion_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="MySql.Data, Version=8.0.30.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmMenuProdCompraProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuProdCompraProductos.Designer.cs">
+      <DependentUpon>frmMenuProdCompraProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenuAdminGestInsumos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuAdminGestInsumos.Designer.cs">
+      <DependentUpon>frmMenuAdminGestInsumos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenuAdminGestPredios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuAdminGestPredios.Designer.cs">
+      <DependentUpon>frmMenuAdminGestPredios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenuAdminGestProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuAdminGestProductos.Designer.cs">
+      <DependentUpon>frmMenuAdminGestProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenuAdminGestUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuAdminGestUsuario.Designer.cs">
+      <DependentUpon>frmMenuAdminGestUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenuAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuAdmin.Designer.cs">
+      <DependentUpon>frmMenuAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenuProd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuProd.Designer.cs">
+      <DependentUpon>frmMenuProd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoginTipoUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoginTipoUsuario.Designer.cs">
+      <DependentUpon>frmLoginTipoUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenuProdCalendario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuProdCalendario.Designer.cs">
+      <DependentUpon>frmMenuProdCalendario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenuProdCompraInsumos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuProdCompraInsumos.Designer.cs">
+      <DependentUpon>frmMenuProdCompraInsumos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenuProdPredios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuProdPredios.Designer.cs">
+      <DependentUpon>frmMenuProdPredios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenuProdVentaProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuProdVentaProductos.Designer.cs">
+      <DependentUpon>frmMenuProdVentaProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenuUserNotificaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuUserNotificaciones.Designer.cs">
+      <DependentUpon>frmMenuUserNotificaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenuAdminGestCalendario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuAdminGestCalendario.Designer.cs">
+      <DependentUpon>frmMenuAdminGestCalendario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmMenuProdCompraProductos.resx">
+      <DependentUpon>frmMenuProdCompraProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenuAdminGestInsumos.resx">
+      <DependentUpon>frmMenuAdminGestInsumos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenuAdminGestPredios.resx">
+      <DependentUpon>frmMenuAdminGestPredios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenuAdminGestProductos.resx">
+      <DependentUpon>frmMenuAdminGestProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenuAdminGestUsuario.resx">
+      <DependentUpon>frmMenuAdminGestUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenuAdmin.resx">
+      <DependentUpon>frmMenuAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenuProd.resx">
+      <DependentUpon>frmMenuProd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoginTipoUsuario.resx">
+      <DependentUpon>frmLoginTipoUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenuProdCalendario.resx">
+      <DependentUpon>frmMenuProdCalendario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenuProdCompraInsumos.resx">
+      <DependentUpon>frmMenuProdCompraInsumos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenuProdPredios.resx">
+      <DependentUpon>frmMenuProdPredios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenuProdVentaProductos.resx">
+      <DependentUpon>frmMenuProdVentaProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenuUserNotificaciones.resx">
+      <DependentUpon>frmMenuUserNotificaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenuAdminGestCalendario.resx">
+      <DependentUpon>frmMenuAdminGestCalendario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Presentacion_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="KeFruta_Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entidades\Entidades.csproj">
+      <Project>{43903ea5-fb0d-4a4e-8294-77b1138f6d6d}</Project>
+      <Name>Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Negocios\LogicaNegocio.csproj">
+      <Project>{08817ff5-4c34-4b1e-a12f-fa4568cd65ec}</Project>
+      <Name>LogicaNegocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

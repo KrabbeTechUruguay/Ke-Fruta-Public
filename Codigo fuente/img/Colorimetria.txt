@@ -1,0 +1,9 @@
+VERDE BOTONES:
+#00bb8d
+
+AZUL MENU:
+#071a52
+
+
+OTROS:
+#0e2000, #ffd600, #ffa100, #9cd889, #80ce97, #fff500, #ffb200, #c09300, #600000, #6a1700, #ff5100, #540500, #ffde5f, #ff9300, #000000, #6a7100, #007400, #aa5100, #c09300, #845100, #ffd500, #ffe3b1, #a2ad00, #fff500, #ffc900, #ff1d00, #ffe100, #ffde00, #769d07, #7c5000, #ffea99, #f48200, #ffef6d, #ffcd00, #ffc900, #ff9e00, #064200, #900000, #bc5000, #ffc22b, #00a63d, #ffd500, #ffc900, #d2dccf, #ff5f00, #ffe597, #ffd500, #8a2e00, #ff1d00, #ffd965, #ffcd00, #ffc457, #ffbf00, #c01d00, #ffde5f, #ff9300, #d2dccf, #00b561, #a69200, #ff3e00, #ffb100, #ffe533, #aa7800, #fff99d, #381800, #9acbd3, #00bb8d, #8a2e00, #ffb43b

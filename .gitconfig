@@ -1,0 +1,7 @@
+# ~/.gitconfig
+[core]
+  attributesfile = ~/.gitattributes
+
+[diff "pandoc"]
+  textconv=pandoc --to=markdown
+  prompt = false

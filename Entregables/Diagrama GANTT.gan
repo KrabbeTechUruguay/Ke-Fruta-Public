@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2021-05-01" view-index="0" gantt-divider-location="311" resource-divider-location="300" version="3.2.3247" locale="es_ES">
+    <description/>
+    <view zooming-state="default:11" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="166" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="67" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="62" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="color.recent">
+            <![CDATA[#0099cc #009999 #cc9900 #ff00ff #ff0000 #ff3300]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="210" order="0"/>
+        <field id="1" name="Función" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="true"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Creación de Trello" color="#8cb6ce" meeting="true" start="2022-04-23" duration="0" complete="0" thirdDate="2022-07-24" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Creación de Trello]]>
+            </notes>
+        </task>
+        <task id="1" name="Logotipo" color="#8cb6ce" meeting="false" start="2022-04-28" duration="9" complete="0" thirdDate="2022-04-18" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Logotipo]]>
+            </notes>
+            <depend id="12" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="2" name="Nombre equipo proyecto" color="#8cb6ce" meeting="false" start="2022-04-29" duration="2" complete="90" thirdDate="2022-04-18" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Nombre de grupo proyecto]]>
+            </notes>
+            <depend id="3" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="3" name="Crear gmail empresa" color="#8cb6ce" meeting="false" start="2022-05-01" duration="1" complete="100" thirdDate="2022-04-18" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Creación Gmail de empresa]]>
+            </notes>
+        </task>
+        <task id="12" name="Rediseño de logo" color="#8cb6ce" meeting="false" start="2022-05-07" duration="3" complete="0" thirdDate="2022-06-02" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Se mejoro notablemente el logo.
+]]>
+            </notes>
+        </task>
+        <task id="4" name="Coord. horaria" color="#8cb6ce" meeting="false" start="2022-05-27" duration="6" complete="0" thirdDate="2022-04-18" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Coordinación de horario de reuniones.]]>
+            </notes>
+        </task>
+        <task id="13" name="Entrega Letra De Proyecto y análisis de Letra" color="#ff3300" meeting="true" start="2022-05-30" duration="0" complete="0" thirdDate="2022-06-02" thirdDate-constraint="0" expand="true"/>
+        <task id="59" name="Glosario 1.0" color="#8cb6ce" meeting="false" start="2022-05-30" duration="1" complete="0" thirdDate="2022-07-18" thirdDate-constraint="0" expand="true">
+            <depend id="26" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="5" name="Reunion 0000" color="#8cb6ce" meeting="false" start="2022-05-31" duration="1" complete="0" thirdDate="2022-04-18" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Reunión de equipo.]]>
+            </notes>
+            <depend id="6" type="2" difference="0" hardness="Strong"/>
+            <depend id="19" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="26" name="Req. Fun." color="#8cb6ce" meeting="false" start="2022-05-31" duration="12" complete="0" thirdDate="2022-06-26" thirdDate-constraint="0" expand="true">
+            <depend id="48" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="6" name="Acta reunion 0000" color="#8cb6ce" meeting="false" start="2022-06-01" duration="2" complete="0" thirdDate="2022-04-18" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Acta de reunión 0000]]>
+            </notes>
+            <depend id="19" type="2" difference="0" hardness="Strong"/>
+            <depend id="62" type="2" difference="0" hardness="Strong"/>
+            <depend id="63" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="7" name="Creación de la Documentacion: Conformacion de grupo" color="#8cb6ce" meeting="false" start="2022-06-01" duration="6" complete="0" thirdDate="2022-06-02" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Conformación del grupo.]]>
+            </notes>
+            <depend id="67" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="8" name="Creación de carpeta formación" color="#8cb6ce" meeting="false" start="2022-06-01" duration="8" complete="0" thirdDate="2022-06-02" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Creación de carpeta formación
+
+-Nombre
+
+-Logo
+
+-Actividad
+
+-Giro de la misma.]]>
+            </notes>
+            <depend id="18" type="2" difference="0" hardness="Strong"/>
+            <depend id="33" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="19" name="Reunion 0001" color="#8cb6ce" meeting="false" start="2022-06-03" duration="1" complete="0" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true">
+            <depend id="20" type="2" difference="0" hardness="Strong"/>
+            <depend id="28" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="9" name="Creación acta de reuniones" color="#8cb6ce" meeting="false" start="2022-06-03" duration="2" complete="0" thirdDate="2022-06-04" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Creación de acta de reuniones.]]>
+            </notes>
+        </task>
+        <task id="20" name="Acta reunion 0001" color="#8cb6ce" meeting="false" start="2022-06-04" duration="1" complete="0" thirdDate="2022-06-15" thirdDate-constraint="0" expand="true">
+            <depend id="28" type="2" difference="0" hardness="Strong"/>
+            <depend id="62" type="2" difference="0" hardness="Strong"/>
+            <depend id="63" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="28" name="Reunion 0002" color="#8cb6ce" meeting="false" start="2022-06-05" duration="1" complete="0" thirdDate="2022-06-29" thirdDate-constraint="0" expand="true">
+            <depend id="29" type="2" difference="0" hardness="Strong"/>
+            <depend id="34" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="29" name="Acta reunion 0002" color="#8cb6ce" meeting="false" start="2022-06-06" duration="1" complete="0" thirdDate="2022-06-29" thirdDate-constraint="0" expand="true">
+            <depend id="34" type="2" difference="0" hardness="Strong"/>
+            <depend id="62" type="2" difference="0" hardness="Strong"/>
+            <depend id="63" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="10" name="Compra pendrives y hojas" color="#8cb6ce" meeting="false" start="2022-06-07" duration="1" complete="0" thirdDate="2022-06-04" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Comprar pendrives y hojas A4]]>
+            </notes>
+        </task>
+        <task id="67" name="Entrega de conformación de grupo" color="#8cb6ce" meeting="false" start="2022-06-07" duration="1" complete="0" thirdDate="2022-07-04" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Personas en el grupo: Nicolas Inzúa, Vannina Ribeiro, Matías Mutter, Bruno Barrios.]]>
+            </notes>
+            <depend id="68" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="34" name="Reunion 0003" color="#8cb6ce" meeting="false" start="2022-06-07" duration="1" complete="0" thirdDate="2022-06-30" thirdDate-constraint="0" expand="true">
+            <depend id="41" type="2" difference="0" hardness="Strong"/>
+            <depend id="69" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="69" name="Acta reunión 0003" color="#8cb6ce" meeting="false" start="2022-06-08" duration="1" complete="0" thirdDate="2022-07-04" thirdDate-constraint="0" expand="true">
+            <depend id="41" type="2" difference="0" hardness="Strong"/>
+            <depend id="62" type="2" difference="0" hardness="Strong"/>
+            <depend id="63" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="41" name="Reunion 0004" color="#8cb6ce" meeting="false" start="2022-06-09" duration="1" complete="0" thirdDate="2022-07-04" thirdDate-constraint="0" expand="true">
+            <depend id="42" type="2" difference="0" hardness="Strong"/>
+            <depend id="43" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="33" name="Edición a carp Formacion" color="#8cb6ce" meeting="false" start="2022-06-09" duration="1" complete="0" thirdDate="2022-06-29" thirdDate-constraint="0" expand="true"/>
+        <task id="18" name="Busqueda de oficina" color="#8cb6ce" meeting="false" start="2022-06-09" duration="6" complete="0" thirdDate="2022-05-27" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Encontrar un lugar (real) (25mil) donde se podran hacer reuniones, "Encuentros" con los clientes y así mismo nuestros desarrolladores puedan trabajar.]]>
+            </notes>
+            <depend id="117" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="42" name="Acta 0004" color="#8cb6ce" meeting="false" start="2022-06-10" duration="1" complete="0" thirdDate="2022-07-04" thirdDate-constraint="0" expand="true">
+            <depend id="43" type="2" difference="0" hardness="Strong"/>
+            <depend id="62" type="2" difference="0" hardness="Strong"/>
+            <depend id="63" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="43" name="Reunion 0005" color="#8cb6ce" meeting="false" start="2022-06-11" duration="2" complete="0" thirdDate="2022-07-04" thirdDate-constraint="0" expand="true">
+            <depend id="44" type="2" difference="0" hardness="Strong"/>
+            <depend id="49" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="48" name="Tecnicas de relevamiento" color="#8cb6ce" meeting="false" start="2022-06-12" duration="1" complete="0" thirdDate="2022-07-11" thirdDate-constraint="0" expand="true">
+            <depend id="55" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="14" name="Entrega de la conformación de grupo" color="#ff0000" meeting="true" start="2022-06-13" duration="0" complete="0" thirdDate="2022-05-16" thirdDate-constraint="0" expand="true"/>
+        <task id="44" name="Acta 0005" color="#8cb6ce" meeting="false" start="2022-06-13" duration="2" complete="0" thirdDate="2022-07-06" thirdDate-constraint="0" expand="true">
+            <depend id="49" type="2" difference="0" hardness="Strong"/>
+            <depend id="62" type="2" difference="0" hardness="Strong"/>
+            <depend id="63" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="55" name="Documento ESRE" color="#8cb6ce" meeting="false" start="2022-06-13" duration="2" complete="0" thirdDate="2022-07-12" thirdDate-constraint="0" expand="true">
+            <depend id="60" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="60" name="Alcance ADA" color="#8cb6ce" meeting="false" start="2022-06-15" duration="1" complete="0" thirdDate="2022-07-18" thirdDate-constraint="0" expand="true">
+            <depend id="75" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="49" name="Reunion 0006" color="#8cb6ce" meeting="false" start="2022-06-15" duration="2" complete="0" thirdDate="2022-07-11" thirdDate-constraint="0" expand="true">
+            <depend id="73" type="2" difference="0" hardness="Strong"/>
+            <depend id="74" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="21" name="Crear Repositorio Git" color="#8cb6ce" meeting="false" start="2022-06-15" duration="6" complete="0" thirdDate="2022-06-15" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Creación de un repositorio para los documentos y otro para programación.]]>
+            </notes>
+            <depend id="22" type="2" difference="0" hardness="Strong"/>
+            <depend id="24" type="2" difference="0" hardness="Strong"/>
+            <depend id="66" type="2" difference="0" hardness="Strong"/>
+            <depend id="70" type="2" difference="0" hardness="Strong"/>
+            <depend id="71" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="75" name="Modelo de cuestionario" color="#8cb6ce" meeting="false" start="2022-06-16" duration="1" complete="0" thirdDate="2022-07-04" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Modelo de cuestionario: Usuario y administrador]]>
+            </notes>
+            <depend id="97" type="4" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="73" name="Acta 0006" color="#8cb6ce" meeting="false" start="2022-06-17" duration="2" complete="0" thirdDate="2022-07-04" thirdDate-constraint="0" expand="true">
+            <depend id="62" type="2" difference="0" hardness="Strong"/>
+            <depend id="63" type="2" difference="0" hardness="Strong"/>
+            <depend id="74" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="74" name="Reunion 0007" color="#8cb6ce" meeting="false" start="2022-06-19" duration="1" complete="0" thirdDate="2022-07-04" thirdDate-constraint="0" expand="true">
+            <depend id="50" type="2" difference="0" hardness="Strong"/>
+            <depend id="52" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="50" name="Acta 0007" meeting="false" start="2022-06-20" duration="1" complete="0" expand="true">
+            <depend id="52" type="2" difference="0" hardness="Strong"/>
+            <depend id="62" type="2" difference="0" hardness="Strong"/>
+            <depend id="63" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="22" name="Añadir miembros" color="#8cb6ce" meeting="false" start="2022-06-21" duration="1" complete="0" thirdDate="2022-06-12" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Se añadio al miembro Gonzalo Jacques en el grupo: ]]>
+            </notes>
+            <depend id="23" type="2" difference="0" hardness="Strong"/>
+            <depend id="68" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="23" name="Añadir invitación al grupo wspp" color="#8cb6ce" meeting="false" start="2022-06-22" duration="1" complete="0" thirdDate="2022-06-12" thirdDate-constraint="0" expand="true"/>
+        <task id="71" name="Crear Repositorios en Git sobre cada materia" color="#8cb6ce" meeting="false" start="2022-06-21" duration="2" complete="0" thirdDate="2022-07-04" thirdDate-constraint="0" expand="true">
+            <depend id="70" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="24" name="Clonacion de el repositorio" color="#8cb6ce" meeting="false" start="2022-06-21" duration="6" complete="0" thirdDate="2022-06-16" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[CLONACION DE REPOSITORIO Y CREACION DE RAMAS.]]>
+            </notes>
+            <depend id="25" type="2" difference="0" hardness="Strong"/>
+            <depend id="30" type="2" difference="0" hardness="Strong"/>
+            <depend id="45" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="52" name="Reunion 0008" color="#8cb6ce" meeting="false" start="2022-06-21" duration="2" complete="0" thirdDate="2022-07-11" thirdDate-constraint="0" expand="true">
+            <depend id="54" type="2" difference="0" hardness="Strong"/>
+            <depend id="56" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="66" name="Agregar GitIgnore para repositorio de documentación" color="#8cb6ce" meeting="false" start="2022-06-21" duration="1" complete="0" thirdDate="2022-07-18" thirdDate-constraint="0" expand="true"/>
+        <task id="68" name="Reformular conformacion de grupo" color="#8cb6ce" meeting="false" start="2022-06-22" duration="1" complete="0" thirdDate="2022-07-04" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Se agrego a Gonzalo en el acta de conformacion de grupo
+]]>
+            </notes>
+            <depend id="31" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="31" name="Nueva coord horaria" color="#8cb6ce" meeting="false" start="2022-06-23" duration="1" complete="0" thirdDate="2022-06-29" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Se concordo los horarios disponibles de todos los integrantes del grupo.
+]]>
+            </notes>
+        </task>
+        <task id="70" name="Agregar al profesor de Gestión a Git" color="#8cb6ce" meeting="false" start="2022-06-23" duration="2" complete="0" thirdDate="2022-07-04" thirdDate-constraint="0" expand="true"/>
+        <task id="54" name="Acta 0008" color="#8cb6ce" meeting="false" start="2022-06-23" duration="2" complete="0" thirdDate="2022-07-13" thirdDate-constraint="0" expand="true">
+            <depend id="56" type="2" difference="0" hardness="Strong"/>
+            <depend id="62" type="2" difference="0" hardness="Strong"/>
+            <depend id="63" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="56" name="Reunion 0009" meeting="false" start="2022-06-25" duration="1" complete="0" expand="true">
+            <depend id="57" type="2" difference="0" hardness="Strong"/>
+            <depend id="100" type="2" difference="0" hardness="Rubber"/>
+            <depend id="101" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="57" name="Acta 0009" meeting="false" start="2022-06-26" duration="1" complete="0" expand="true">
+            <depend id="62" type="2" difference="0" hardness="Strong"/>
+            <depend id="63" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="25" name="Primer commit" color="#8cb6ce" meeting="false" start="2022-06-27" duration="1" complete="0" thirdDate="2022-06-16" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Creación de proyecto vacio]]>
+            </notes>
+        </task>
+        <task id="30" name="Clonación de repositorio para Gonzalo" color="#8cb6ce" meeting="false" start="2022-06-27" duration="1" complete="0" thirdDate="2022-06-29" thirdDate-constraint="0" expand="true"/>
+        <task id="45" name="Clonacion de rama (bruno)" color="#8cb6ce" meeting="false" start="2022-06-27" duration="1" complete="0" thirdDate="2022-07-06" thirdDate-constraint="0" expand="true"/>
+        <task id="62" name="Corrección de actas Primera Entrega" color="#8cb6ce" meeting="false" start="2022-06-27" duration="1" complete="0" thirdDate="2022-07-19" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Ultima correcciónde las actas de reunión]]>
+            </notes>
+            <depend id="63" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="63" name="Impresión de actas" color="#8cb6ce" meeting="false" start="2022-06-28" duration="2" complete="0" thirdDate="2022-07-19" thirdDate-constraint="0" expand="true">
+            <depend id="76" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="27" name="Reenvio de Conformacion de grupo" color="#ff0000" meeting="true" start="2022-06-29" duration="0" complete="0" thirdDate="2022-06-24" thirdDate-constraint="0" expand="true"/>
+        <task id="32" name="Codeo Login" color="#8cb6ce" meeting="false" start="2022-06-29" duration="3" complete="0" thirdDate="2022-06-29" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Se codeo el login, ahora se podría ingresar por "personas" (Básico) | Gonzalo Jacques, Nicolás Inzúa]]>
+            </notes>
+            <depend id="72" type="2" difference="0" hardness="Strong"/>
+            <depend id="82" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="76" name="Firmar actas" color="#8cb6ce" meeting="false" start="2022-06-30" duration="1" complete="0" thirdDate="2022-07-04" thirdDate-constraint="0" expand="true">
+            <depend id="77" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="37" name="Menu S.O - Alpha" color="#8cb6ce" meeting="false" start="2022-06-30" duration="2" complete="0" thirdDate="2022-06-30" thirdDate-constraint="0" expand="true">
+            <depend id="35" type="2" difference="0" hardness="Strong"/>
+            <depend id="36" type="2" difference="0" hardness="Strong"/>
+            <depend id="51" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="77" name="Escanear las actas firmadas" color="#8cb6ce" meeting="false" start="2022-07-01" duration="1" complete="0" thirdDate="2022-07-04" thirdDate-constraint="0" expand="true">
+            <depend id="84" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="84" name="Agregar actas firmadas en la carpeta de Gestión." color="#8cb6ce" meeting="false" start="2022-07-02" duration="1" complete="0" thirdDate="2022-07-04" thirdDate-constraint="0" expand="true"/>
+        <task id="72" name="Boceto diagrama de flujo Usuario-Administrador" color="#8cb6ce" meeting="false" start="2022-07-02" duration="2" complete="0" thirdDate="2022-07-04" thirdDate-constraint="0" expand="true">
+            <depend id="81" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="82" name="Prototipado de login - Programacion" color="#8cb6ce" meeting="false" start="2022-07-02" duration="4" complete="0" thirdDate="2022-07-04" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Nicolás Inzúa, Gonzalo Jacques]]>
+            </notes>
+            <depend id="83" type="2" difference="0" hardness="Strong"/>
+            <depend id="86" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="35" name="Script admin -&gt; usuarios" color="#8cb6ce" meeting="false" start="2022-07-02" duration="5" complete="0" thirdDate="2022-06-28" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Script de administración de usuarios en Sis. Op
+]]>
+            </notes>
+            <depend id="51" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="36" name="Documentación S.O" color="#8cb6ce" meeting="false" start="2022-07-02" duration="14" complete="0" thirdDate="2022-06-30" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Se creo la documentación apropiada para la entrega de la carpeta de Sis. Op]]>
+            </notes>
+            <depend id="46" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="81" name="Codeo de clase: Usuario" color="#8cb6ce" meeting="false" start="2022-07-04" duration="2" complete="0" thirdDate="2022-07-04" thirdDate-constraint="0" expand="true"/>
+        <task id="83" name="Desarrollo del diseño del login" color="#8cb6ce" meeting="false" start="2022-07-06" duration="5" complete="0" thirdDate="2022-07-04" thirdDate-constraint="0" expand="true">
+            <depend id="86" type="2" difference="0" hardness="Strong"/>
+            <depend id="131" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="51" name="Creación de login para S.O" color="#8cb6ce" meeting="false" start="2022-07-07" duration="3" complete="0" thirdDate="2022-07-11" thirdDate-constraint="0" expand="true">
+            <depend id="78" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="78" name="Exportación de la maquina virtual Sis.Op" color="#8cb6ce" meeting="false" start="2022-07-10" duration="1" complete="0" thirdDate="2022-07-04" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Exportacion de la maquina virtual de Sistemas operativa]]>
+            </notes>
+        </task>
+        <task id="47" name="Crea reglas de grupo" color="#8cb6ce" meeting="false" start="2022-07-11" duration="1" complete="0" thirdDate="2022-07-11" thirdDate-constraint="0" expand="true">
+            <depend id="53" type="2" difference="0" hardness="Strong"/>
+            <depend id="79" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="39" name="Nuevo repositorio por materia" color="#8cb6ce" meeting="false" start="2022-07-11" duration="2" complete="0" thirdDate="2022-07-02" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Crear un nuevo repositorio por materias]]>
+            </notes>
+            <depend id="40" type="2" difference="0" hardness="Strong"/>
+            <depend id="64" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="86" name="Creación de iconos para el menu" color="#8cb6ce" meeting="false" start="2022-07-11" duration="2" complete="0" thirdDate="2022-07-04" thirdDate-constraint="0" expand="true">
+            <depend id="87" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="79" name="Creación de acta de observaciones" color="#8cb6ce" meeting="false" start="2022-07-12" duration="2" complete="0" thirdDate="2022-07-04" thirdDate-constraint="0" expand="true"/>
+        <task id="53" name="Asignacion de roles." color="#8cb6ce" meeting="false" start="2022-07-12" duration="4" complete="0" thirdDate="2022-07-13" thirdDate-constraint="0" expand="true"/>
+        <task id="40" name="Añadir a el profe de gestion al repositorio nuevo a GIt" color="#8cb6ce" meeting="false" start="2022-07-13" duration="2" complete="0" thirdDate="2022-07-04" thirdDate-constraint="0" expand="true"/>
+        <task id="64" name="Agregar gitignore a repositorio" color="#8cb6ce" meeting="false" start="2022-07-13" duration="2" complete="0" thirdDate="2022-07-19" thirdDate-constraint="0" expand="true"/>
+        <task id="87" name="Creación del menu del programa - Programación" color="#8cb6ce" meeting="false" start="2022-07-13" duration="3" complete="0" thirdDate="2022-07-04" thirdDate-constraint="0" expand="true">
+            <depend id="88" type="2" difference="0" hardness="Strong"/>
+            <depend id="134" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="88" name="Documentación Carpeta Programación" color="#8cb6ce" meeting="false" start="2022-07-16" duration="1" complete="0" thirdDate="2022-07-04" thirdDate-constraint="0" expand="true"/>
+        <task id="46" name="Desarrollo S.O recom" color="#8cb6ce" meeting="false" start="2022-07-16" duration="2" complete="0" thirdDate="2022-07-06" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Desarrolló de que Sis. Op recomendamos al cliente.]]>
+            </notes>
+            <depend id="122" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="61" name="Coordinar reunion con ingeniero" color="#8cb6ce" meeting="false" start="2022-07-19" duration="1" complete="0" thirdDate="2022-07-19" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Coordinar reunión con ingeniero agrónomo]]>
+            </notes>
+        </task>
+        <task id="58" name="Diagrama M.E.R (v. 4.0)" color="#8cb6ce" meeting="false" start="2022-07-22" duration="2" complete="0" thirdDate="2022-07-12" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Version 4.0]]>
+            </notes>
+            <depend id="92" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="85" name="Creación de logo de coperativa" color="#8cb6ce" meeting="false" start="2022-07-23" duration="2" complete="0" thirdDate="2022-07-04" thirdDate-constraint="0" expand="true">
+            <depend id="89" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="91" name="Reorganización de tareas en Trello" color="#8cb6ce" meeting="false" start="2022-07-24" duration="1" complete="0" thirdDate="2022-07-04" thirdDate-constraint="0" expand="true"/>
+        <task id="100" name="Reunion 10" color="#8cb6ce" meeting="false" start="2022-07-24" duration="1" complete="0" thirdDate="2022-07-11" thirdDate-constraint="0" expand="true">
+            <depend id="90" type="2" difference="0" hardness="Strong"/>
+            <depend id="101" type="2" difference="0" hardness="Strong"/>
+            <depend id="102" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="101" name="Acta de reunion 10" color="#8cb6ce" meeting="false" start="2022-07-25" duration="1" complete="0" thirdDate="2022-06-26" thirdDate-constraint="0" expand="true"/>
+        <task id="102" name="Reunion 11" color="#8cb6ce" meeting="false" start="2022-07-25" duration="1" complete="0" thirdDate="2022-07-21" thirdDate-constraint="0" expand="true">
+            <depend id="103" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="103" name="Acta de reunion 11" color="#8cb6ce" meeting="false" start="2022-07-26" duration="1" complete="0" thirdDate="2022-07-18" thirdDate-constraint="0" expand="true"/>
+        <task id="90" name="Gestion: Avance con la carpeta" color="#8cb6ce" meeting="false" start="2022-07-25" duration="2" complete="0" thirdDate="2022-07-04" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Gestion: Proposito de proyecto, alcance, designación de responsabilidad, penalización por reglas y estimacion de la duración.]]>
+            </notes>
+            <depend id="118" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="92" name="Diagrama M.E.R (v. 6.0)" color="#8cb6ce" meeting="false" start="2022-07-24" duration="2" complete="0" thirdDate="2022-07-04" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Version 6.0]]>
+            </notes>
+            <depend id="96" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="89" name="Colometría y modificaciones de logos y iconos de la coperativa." color="#8cb6ce" meeting="false" start="2022-07-25" duration="1" complete="0" thirdDate="2022-07-04" thirdDate-constraint="0" expand="true"/>
+        <task id="93" name="Crear Gantt" color="#8cb6ce" meeting="false" start="2022-07-25" duration="1" complete="0" thirdDate="2022-05-30" thirdDate-constraint="0" expand="true"/>
+        <task id="95" name="Impresión de documentación del recibo" color="#8cb6ce" meeting="false" start="2022-07-25" duration="1" complete="0" thirdDate="2022-05-30" thirdDate-constraint="0" expand="true">
+            <depend id="15" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="15" name="1º Entrega" color="#ff0000" meeting="true" start="2022-07-26" duration="0" complete="0" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true"/>
+        <task id="96" name="Diagrama M.E.R (v. 7.0)" color="#cc9900" meeting="false" start="2022-07-26" duration="1" complete="0" thirdDate="2022-07-13" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[En este punto, teniamos varias versiones del MER, dado que el profesor de Base de datos nos hizo una correción y nos quedamos con varios M.E.R
+
+M.E.R 6.0 y M.E.R 7.0]]>
+            </notes>
+            <depend id="126" type="2" difference="0" hardness="Rubber"/>
+            <depend id="130" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="97" name="Diagrama de clases" color="#cc9900" meeting="false" start="2022-07-30" duration="4" complete="0" thirdDate="2022-07-11" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Diagrama UML]]>
+            </notes>
+            <depend id="119" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="98" name="Reunion 13" color="#cc9900" meeting="false" start="2022-08-06" duration="1" complete="0" thirdDate="2022-07-11" thirdDate-constraint="0" expand="true">
+            <depend id="99" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="117" name="FODA" color="#cc9900" meeting="false" start="2022-08-10" duration="1" complete="0" thirdDate="2022-07-18" thirdDate-constraint="0" expand="true">
+            <depend id="127" type="2" difference="0" hardness="Rubber"/>
+            <depend id="135" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="118" name="Acta de documentacion y inicio planificación" color="#cc9900" meeting="false" start="2022-08-11" duration="1" complete="0" thirdDate="2022-06-15" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="120" type="2" difference="0" hardness="Rubber"/>
+            <depend id="121" type="2" difference="0" hardness="Rubber"/>
+            <depend id="158" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="119" name="Modificaciones Diagrama de clases y M.E.R (v. 7.0)" color="#cc9900" meeting="false" start="2022-08-11" duration="1" complete="0" thirdDate="2022-07-18" thirdDate-constraint="0" expand="true"/>
+        <task id="120" name="Diagrama de caso de uso" color="#cc9900" meeting="false" start="2022-08-18" duration="1" complete="0" thirdDate="2022-08-03" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="123" type="2" difference="0" hardness="Rubber"/>
+            <depend id="124" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="121" name="Carpeta formacion empresarial terminada | Segunda entrega." color="#cc9900" meeting="false" start="2022-08-18" duration="1" complete="0" thirdDate="2022-08-12" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="125" type="2" difference="0" hardness="Rubber"/>
+            <depend id="128" type="2" difference="0" hardness="Rubber"/>
+            <depend id="166" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="99" name="Reunion 14" color="#cc9900" meeting="false" start="2022-08-18" duration="1" complete="0" thirdDate="2022-07-11" thirdDate-constraint="0" expand="true">
+            <depend id="104" type="1" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="104" name="Acta de reunion 14" color="#cc9900" meeting="false" start="2022-08-18" duration="1" complete="0" thirdDate="2022-08-18" thirdDate-constraint="0" expand="true"/>
+        <task id="122" name="Mejoras de redacción/puntos en la carpeta Sistemas. Op" color="#cc9900" meeting="false" start="2022-07-20" duration="1" complete="0" thirdDate="2022-07-18" thirdDate-constraint="0" expand="true">
+            <depend id="138" type="2" difference="0" hardness="Rubber"/>
+            <depend id="160" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="123" name="Roles y perfiles - A.D.A" color="#cc9900" meeting="false" start="2022-08-20" duration="1" complete="0" thirdDate="2022-07-18" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="141" type="2" difference="0" hardness="Rubber"/>
+            <depend id="186" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="105" name="Reunion 16" color="#cc9900" meeting="false" start="2022-08-20" duration="1" complete="0" thirdDate="2022-07-24" thirdDate-constraint="0" expand="true">
+            <depend id="106" type="2" difference="0" hardness="Strong"/>
+            <depend id="107" type="2" difference="0" hardness="Rubber"/>
+            <depend id="108" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="124" name="Diagrama de clases utima modificacion" color="#cc9900" meeting="false" start="2022-08-25" duration="1" complete="0" thirdDate="2022-07-18" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+        <task id="106" name="Acta de reunion 16" color="#cc9900" meeting="false" start="2022-08-21" duration="1" complete="0" thirdDate="2022-07-24" thirdDate-constraint="0" expand="true"/>
+        <task id="108" name="Reunion 17" color="#cc9900" meeting="false" start="2022-08-23" duration="1" complete="0" thirdDate="2022-08-21" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="109" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="107" name="Acta de reunion 17" color="#cc9900" meeting="false" start="2022-08-23" duration="1" complete="0" thirdDate="2022-07-24" thirdDate-constraint="0" expand="true"/>
+        <task id="125" name="FM - Microentorno y localizacion" color="#cc9900" meeting="false" start="2022-09-01" duration="1" complete="0" thirdDate="2022-09-01" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="129" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="126" name="BD - Diccionario de datos" color="#cc9900" meeting="false" start="2022-09-01" duration="1" complete="0" thirdDate="2022-08-19" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+        <task id="127" name="FM - Analisis FODA 2version" color="#cc9900" meeting="false" start="2022-09-01" duration="1" complete="0" thirdDate="2022-08-19" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+        <task id="109" name="Reunion 18" color="#cc9900" meeting="false" start="2022-09-02" duration="1" complete="0" thirdDate="2022-08-21" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="110" type="4" difference="0" hardness="Rubber"/>
+            <depend id="111" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="128" name="FM - Documentos BPS, etc" color="#cc9900" meeting="false" start="2022-09-02" duration="1" complete="0" thirdDate="2022-08-11" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+        <task id="110" name="Acta de Reunion 18" color="#cc9900" meeting="false" start="2022-09-03" duration="1" complete="0" thirdDate="2022-08-24" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+        <task id="129" name="FM - Microentorno y objetivos medibles correg" color="#cc9900" meeting="false" start="2022-09-04" duration="1" complete="0" thirdDate="2022-08-11" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+        <task id="130" name="Diagrama M.E.R (v8.0)" color="#cc9900" meeting="false" start="2022-09-05" duration="1" complete="0" thirdDate="2022-09-02" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="133" type="2" difference="0" hardness="Rubber"/>
+            <depend id="136" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="131" name="Eliminacion de la extension &quot;PowerPack&quot;" color="#cc9900" meeting="false" start="2022-09-06" duration="1" complete="0" thirdDate="2022-07-27" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+        <task id="133" name="Actualizacion Diagrama M.E.R (v8.0)" color="#cc9900" meeting="false" start="2022-09-07" duration="1" complete="0" thirdDate="2022-07-27" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+        <task id="134" name="Correción de subfijos | programacion" color="#cc9900" meeting="false" start="2022-09-07" duration="1" complete="0" thirdDate="2022-09-06" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="144" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="135" name="Documento FODA actualizado" color="#cc9900" meeting="false" start="2022-09-09" duration="1" complete="0" thirdDate="2022-07-16" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="163" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="136" name="Correcion M.E.R | correcion del prof. base de datos." color="#cc9900" meeting="false" start="2022-09-10" duration="1" complete="0" thirdDate="2022-08-11" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="137" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="111" name="Reunion 19" color="#cc9900" meeting="false" start="2022-09-10" duration="1" complete="0" thirdDate="2022-08-24" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="112" type="2" difference="0" hardness="Rubber"/>
+            <depend id="113" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="138" name="Sis. Op - SSH en el sistema" color="#cc9900" meeting="false" start="2022-09-11" duration="1" complete="0" thirdDate="2022-09-02" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="139" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="137" name="Pasaje a tablas M.E.R" color="#cc9900" meeting="false" start="2022-09-11" duration="1" complete="0" thirdDate="2022-09-06" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="143" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="112" name="Acta de reunion 19" color="#cc9900" meeting="false" start="2022-09-11" duration="1" complete="0" thirdDate="2022-09-03" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+        <task id="113" name="Reunion 20" color="#cc9900" meeting="false" start="2022-09-11" duration="1" complete="0" thirdDate="2022-09-11" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="114" type="2" difference="0" hardness="Rubber"/>
+            <depend id="115" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="141" name="Planes de contingencia" color="#cc9900" meeting="false" start="2022-09-11" duration="1" complete="0" thirdDate="2022-09-12" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+        <task id="139" name="Carpeta Sistema Operativo Terminada" color="#cc9900" meeting="false" start="2022-09-12" duration="1" complete="0" thirdDate="2022-09-11" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="140" type="1" difference="0" hardness="Rubber"/>
+            <depend id="179" type="2" difference="0" hardness="Rubber"/>
+            <depend id="180" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="140" name="Nueva imagen de CentOS 7 | Con scripts" color="#cc9900" meeting="false" start="2022-09-12" duration="1" complete="0" thirdDate="2022-09-12" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+        <task id="114" name="Acta de reunion 20" color="#cc9900" meeting="false" start="2022-09-12" duration="1" complete="0" thirdDate="2022-09-11" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+        <task id="143" name="3 FN normal M.E.R." color="#cc9900" meeting="false" start="2022-09-12" duration="1" complete="0" thirdDate="2022-09-12" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="146" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="115" name="Reunion 21" color="#cc9900" meeting="false" start="2022-09-12" duration="1" complete="0" thirdDate="2022-09-12" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="116" type="2" difference="0" hardness="Rubber"/>
+            <depend id="148" type="2" difference="0" hardness="Rubber"/>
+            <depend id="149" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="142" name="Carpeta de redes" color="#cc9900" meeting="false" start="2022-09-12" duration="1" complete="0" thirdDate="2022-09-12" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <notes>
+                <![CDATA[Wan, descripcion, material de cableado, equipamiento de hardware terminal y comunicaciones.]]>
+            </notes>
+            <depend id="177" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="16" name="2º Entrega" color="#ff0000" meeting="true" start="2022-09-12" duration="0" complete="0" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true"/>
+        <task id="116" name="Acta de reunion 21" color="#0099cc" meeting="false" start="2022-09-13" duration="1" complete="0" thirdDate="2022-09-12" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+        <task id="148" name="Reunion 22" color="#0099cc" meeting="false" start="2022-09-15" duration="1" complete="0" thirdDate="2022-09-13" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="151" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="149" name="Acta de reunion 22" color="#0099cc" meeting="false" start="2022-09-15" duration="1" complete="0" thirdDate="2022-09-13" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+        <task id="144" name="Programacion conexion base de datos" color="#0099cc" meeting="false" start="2022-09-22" duration="1" complete="0" thirdDate="2022-07-18" thirdDate-constraint="0" expand="true">
+            <depend id="145" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="145" name="Modelo 3 capas programacion" color="#0099cc" meeting="false" start="2022-09-29" duration="1" complete="0" thirdDate="2022-09-12" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="156" type="2" difference="0" hardness="Rubber"/>
+            <depend id="169" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="151" name="Reunion 23" color="#0099cc" meeting="false" start="2022-10-01" duration="1" complete="0" thirdDate="2022-10-03" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="150" type="2" difference="0" hardness="Rubber"/>
+            <depend id="153" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="146" name="populate base de datos | datos nuevos" color="#0099cc" meeting="false" start="2022-10-02" duration="1" complete="0" thirdDate="2022-09-23" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+        <task id="147" name="Acta de reunion 23" color="#0099cc" meeting="false" start="2022-10-03" duration="1" complete="0" thirdDate="2022-07-18" thirdDate-constraint="0" expand="true">
+            <depend id="152" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="153" name="Reunion 24" color="#0099cc" meeting="false" start="2022-10-02" duration="1" complete="0" thirdDate="2022-10-02" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <notes>
+                <![CDATA[Acta de observacion 1°
+Acta de observacion 2°
+Acta de observacion 3°
+Carta de expulsion
+]]>
+            </notes>
+            <depend id="154" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="150" name="Expulsion de vaninna" color="#0099cc" meeting="false" start="2022-10-04" duration="1" complete="0" thirdDate="2022-10-03" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <notes>
+                <![CDATA[Acta de observacion 1°
+Acta de observacion 2°
+Acta de observacion 3°
+Carta de expulsion
+]]>
+            </notes>
+            <depend id="157" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="152" name="Acta de reunion 24" color="#0099cc" meeting="false" start="2022-10-04" duration="1" complete="0" thirdDate="2022-10-02" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <notes>
+                <![CDATA[Acta de observacion 1°
+Acta de observacion 2°
+Acta de observacion 3°
+Carta de expulsion
+]]>
+            </notes>
+        </task>
+        <task id="154" name="Reunion 25" color="#0099cc" meeting="false" start="2022-10-06" duration="1" complete="0" thirdDate="2022-10-02" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="155" type="2" difference="0" hardness="Rubber"/>
+            <depend id="161" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="156" name="Reconocimiento Producto/Administrativo" color="#0099cc" meeting="false" start="2022-10-07" duration="1" complete="0" thirdDate="2022-10-03" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="159" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="161" name="Reunion 26" color="#0099cc" meeting="false" start="2022-10-08" duration="1" complete="0" thirdDate="2022-07-21" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="162" type="2" difference="0" hardness="Rubber"/>
+            <depend id="187" type="2" difference="0" hardness="Rubber"/>
+            <depend id="189" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="157" name="Acta de observacion 5°" color="#0099cc" meeting="false" start="2022-10-08" duration="1" complete="0" thirdDate="2022-09-30" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <notes>
+                <![CDATA[El ex-integrante Vaninna Ribeiro borro todo el repositorio.]]>
+            </notes>
+        </task>
+        <task id="155" name="Acta de reunion 25" color="#0099cc" meeting="false" start="2022-10-09" duration="1" complete="0" thirdDate="2022-10-03" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+        <task id="158" name="Correcion Primera/Segunda Entrega Gestion" color="#0099cc" meeting="false" start="2022-10-10" duration="1" complete="0" thirdDate="2022-10-07" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="165" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="159" name="Creacion de &quot;Entidades&quot; Programacion" color="#8cb6ce" meeting="false" start="2022-10-10" duration="1" complete="0" thirdDate="2022-08-29" thirdDate-constraint="0" expand="true"/>
+        <task id="160" name="Mejora de indice y correciones de textos | FM - RD" color="#8cb6ce" meeting="false" start="2022-10-10" duration="1" complete="0" thirdDate="2022-10-08" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="167" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="162" name="Acta de reunion 26" color="#0099cc" meeting="false" start="2022-10-18" duration="1" complete="0" thirdDate="2022-07-21" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+        <task id="163" name="Correción FODA V2" color="#0099cc" meeting="false" start="2022-10-12" duration="1" complete="0" thirdDate="2022-10-09" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+        <task id="165" name="Correción de Gantt 1 Entrega" color="#0099cc" meeting="false" start="2022-10-14" duration="1" complete="0" thirdDate="2022-09-10" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+        <task id="189" name="Reunion 27" color="#0099cc" meeting="false" start="2022-10-15" duration="1" complete="0" thirdDate="2022-10-09" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="162" type="2" difference="0" hardness="Rubber"/>
+            <depend id="188" type="2" difference="0" hardness="Rubber"/>
+            <depend id="190" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="190" name="Acta de Reunion 27" color="#0099cc" meeting="false" start="2022-10-16" duration="1" complete="0" thirdDate="2022-10-09" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="162" type="2" difference="0" hardness="Rubber"/>
+            <depend id="188" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="187" name="Reunion 28" color="#0099cc" meeting="false" start="2022-10-16" duration="1" complete="0" thirdDate="2022-10-07" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="162" type="2" difference="0" hardness="Rubber"/>
+            <depend id="188" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="188" name="Acta de reunion 28" color="#0099cc" meeting="false" start="2022-10-17" duration="1" complete="0" thirdDate="2022-10-09" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="162" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="166" name="Carpeta Formacion empresarial 3 50%" color="#0099cc" meeting="false" start="2022-10-18" duration="1" complete="0" thirdDate="2022-09-10" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="168" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="167" name="Indices 3 entrega redes" color="#0099cc" meeting="false" start="2022-10-11" duration="1" complete="0" thirdDate="2022-08-19" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+        <task id="168" name="FM - R.R.H.H (reclutamiento, seccion)" color="#0099cc" meeting="false" start="2022-10-22" duration="1" complete="0" thirdDate="2022-08-19" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="170" type="1" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="169" name="Programacion | Login re-hecho" color="#0099cc" meeting="false" start="2022-10-22" duration="1" complete="0" thirdDate="2022-10-19" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <notes>
+                <![CDATA[TERMINADO]]>
+            </notes>
+            <depend id="171" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="170" name="Carpeta Formación (Cargos, anuncios: instagram y gallito pago)" color="#0099cc" meeting="false" start="2022-10-22" duration="1" complete="0" thirdDate="2022-09-30" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="172" type="2" difference="0" hardness="Rubber"/>
+            <depend id="173" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="171" name="Gestion Usuarios Botones" color="#0099cc" meeting="false" start="2022-10-23" duration="1" complete="0" thirdDate="2022-09-30" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="174" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="172" name="Carpeta Formación (Recibo de sueldo)" color="#0099cc" meeting="false" start="2022-10-23" duration="1" complete="0" thirdDate="2022-10-22" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+        <task id="173" name="Carpeta Formación (Viabilidad)" color="#0099cc" meeting="false" start="2022-10-23" duration="1" complete="0" thirdDate="2022-10-23" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="181" type="2" difference="0" hardness="Rubber"/>
+            <depend id="184" type="2" difference="0" hardness="Rubber"/>
+            <depend id="185" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="174" name="Creacion de usuarios | Prog" color="#0099cc" meeting="false" start="2022-11-08" duration="1" complete="0" thirdDate="2022-10-23" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <notes>
+                <![CDATA[TERMINADO]]>
+            </notes>
+        </task>
+        <task id="175" name="Gestion de usuario 100%" color="#0099cc" meeting="false" start="2022-11-03" duration="1" complete="0" thirdDate="2022-10-23" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="174" type="2" difference="0" hardness="Rubber"/>
+            <depend id="178" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="176" name="Nuevos iconos" color="#0099cc" meeting="false" start="2022-11-03" duration="1" complete="0" thirdDate="2022-10-23" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="174" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="177" name="Seguridad física" color="#0099cc" meeting="false" start="2022-11-04" duration="1" complete="0" thirdDate="2022-11-03" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="174" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="178" name="Gestion de predio 100% terminado - Prog" color="#0099cc" meeting="false" start="2022-11-04" duration="1" complete="0" thirdDate="2022-09-13" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="174" type="2" difference="0" hardness="Rubber"/>
+            <depend id="182" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="179" name="Sis. Op(Scripts, Mejoras en la redaccion)" color="#0099cc" meeting="false" start="2022-11-04" duration="1" complete="0" thirdDate="2022-11-04" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="174" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="180" name="Gestion de proyecto (Documentacion de inicio y planificacion, riesgos del proyecto)" color="#0099cc" meeting="false" start="2022-11-04" duration="1" complete="0" thirdDate="2022-09-13" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="174" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="181" name="Formacion Empresarial (viabilidad correción)" color="#0099cc" meeting="false" start="2022-11-04" duration="1" complete="0" thirdDate="2022-09-13" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="174" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="182" name="Fix Bug Gestion Predios - Prog" color="#0099cc" meeting="false" start="2022-11-06" duration="1" complete="0" thirdDate="2022-11-04" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="174" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="183" name="Gestion de sector predio 100% - Prog" color="#0099cc" meeting="false" start="2022-11-07" duration="1" complete="0" thirdDate="2022-11-04" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="174" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="184" name="Formacion empresarial %90 entrega + Anexos" color="#0099cc" meeting="false" start="2022-11-07" duration="1" complete="0" thirdDate="2022-10-24" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="174" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="186" name="Carpeta A.D.A 78%" color="#0099cc" meeting="false" start="2022-11-07" duration="1" complete="0" thirdDate="2022-10-24" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="174" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="185" name="Gantt" color="#0099cc" meeting="false" start="2022-11-07" duration="1" complete="0" thirdDate="2022-10-24" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="174" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="17" name="3º Entrega" color="#ff0000" meeting="true" start="2022-11-07" duration="0" complete="0" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Matías Mutter" function="Default:1" contacts="si" phone="si"/>
+        <resource id="1" name="Gonzalo Jacques" function="SoftwareDevelopment:2" contacts="si" phone="si"/>
+        <resource id="2" name="Nicolás Inzúa" function="SoftwareDevelopment:2" contacts="si" phone="si"/>
+        <resource id="3" name="Bruno Barrios" function="SoftwareDevelopment:2" contacts="si" phone="si"/>
+        <resource id="4" name="Vaninna Ribeiro" function="Default:0" contacts="si" phone="si"/>
+    </resources>
+    <allocations>
+        <allocation task-id="0" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="5" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="4" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="9" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="0" function="SoftwareDevelopment:5" responsible="true" load="100.0"/>
+        <allocation task-id="67" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="21" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="22" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="19" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="20" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="25" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="26" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="68" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="29" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="30" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="31" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="34" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="36" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="41" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="43" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="70" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="71" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="24" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="40" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="39" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="64" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="47" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="55" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="62" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="66" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="76" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="58" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="92" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="84" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="89" resource-id="0" function="SoftwareDevelopment:5" responsible="false" load="100.0"/>
+        <allocation task-id="96" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="97" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="102" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="100" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="98" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="99" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="108" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="109" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="119" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="122" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="124" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="126" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="127" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="130" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="131" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="133" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="136" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="137" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="143" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="146" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="148" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="147" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="151" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="150" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="152" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="153" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="154" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="155" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="157" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="159" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="161" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="162" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="163" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="169" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="171" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="174" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="175" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="176" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="178" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="182" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="183" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="187" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="188" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="189" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="26" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="29" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="31" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="32" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="82" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="33" resource-id="1" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="34" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="69" resource-id="1" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="41" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="42" resource-id="1" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="43" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="71" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="30" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="81" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="70" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="40" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="47" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="52" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="54" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="55" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="62" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="63" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="76" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="77" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="85" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="90" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="93" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="95" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="102" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="100" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="98" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="104" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="99" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="106" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="107" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="110" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="114" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="113" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="118" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="120" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="123" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="150" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="152" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="153" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="154" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="160" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="167" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="186" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="189" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="190" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="8" resource-id="2" function="SoftwareDevelopment:3" responsible="true" load="100.0"/>
+        <allocation task-id="67" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="18" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="22" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="19" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="24" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="29" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="32" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="82" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="33" resource-id="2" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="34" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="69" resource-id="2" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="35" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="36" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="37" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="41" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="72" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="43" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="71" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="44" resource-id="2" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="81" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="46" resource-id="2" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="73" resource-id="2" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="39" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="47" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="51" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="52" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="83" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="55" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="59" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="62" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="76" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="86" resource-id="2" function="SoftwareDevelopment:5" responsible="false" load="100.0"/>
+        <allocation task-id="58" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="87" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="78" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="92" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="84" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="88" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="91" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="93" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="98" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="99" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="109" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="115" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="121" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="125" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="128" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="129" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="134" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="138" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="139" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="140" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="144" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="145" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="149" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="148" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="151" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="154" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="156" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="158" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="161" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="165" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="166" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="168" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="170" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="172" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="173" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="179" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="180" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="181" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="184" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="185" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="187" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="189" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="5" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="67" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="19" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="29" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="34" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="43" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="71" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="45" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="39" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="53" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="61" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="75" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="76" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="77" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="79" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="98" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="99" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="108" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="113" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="115" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="142" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="150" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="152" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="153" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="161" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="177" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="22" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="23" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="19" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="43" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="24" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="48" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="53" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="59" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="60" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="76" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="98" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="99" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="111" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="112" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="113" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="115" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="117" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="135" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="141" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="116" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
